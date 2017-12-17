@@ -1,0 +1,249 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	background: #102669;
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+	background: #102669;
+	position: fixed;
+	z-index: 1;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	display:block;
+	opacity: 1.6;
+}
+nav li a:hover{
+	background: #eee;
+	color: #333;
+
+}
+nav li{
+	display: inline-table;
+	height: 50px;
+	line-height: 50px;
+	width: 100px;
+	position: relative;
+	text-align: center;
+}
+
+nav{
+	background: #102669;;
+	font-family: sans-serif;
+
+}
+.sub1{
+	display: none;
+	position: absolute;
+	z-index: 50;
+	background: #102669;
+}
+nav li:hover .sub1{
+	display: block;
+}
+
+.search-bar{
+	border-radius: 10px;
+
+}
+nav ul li.icon2 a:hover{
+	background:#102669;
+}
+hr {
+
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+
+}
+
+
+
+/*background*/
+
+#bg{
+	overflow: hidden;
+}
+.hazard{
+	height: 700px;
+	width: 1260px;
+	animation: zoomlen 10s forwards;
+
+}
+#bg{
+	background: #102669;
+	opacity: 0.7;
+	z-index: 10;
+	text-align: center;
+}
+
+/*#box3{
+	clear: both;
+	background-color: red;
+	margin-top: 0px;
+	text-align: center;
+}
+#box1{
+	background: pink;
+	height: 50px;
+}
+#box2{
+	background: pink;
+	height: 50px;
+
+}
+
+.container{
+	border: 2px solid red;
+	zoom: 1;
+
+
+}
+
+.container:after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}*/
+.news{
+	color:#0e1e7d;
+	overflow: hidden;
+}
+ .content .news{
+ 	background: white;
+ 	padding-left: 20px;
+ 	font-family: Impact;
+ }
+
+ .img{
+ 	background-image: url('../img/morata.jpg');
+ 	width: 380px;
+ 	height: 180px;
+	transition: 2s;
+ }
+ .first:hover .img{
+ 	transform: scale(1.1);
+ }
+ .anh{
+ 	overflow: hidden;
+ 	width: 380px;
+ 	height: 180px;
+ }
+ .title{
+ 	font-size: 30px;
+ }
+ .first{
+ 	margin-top: 30px;
+ 	width: 380px;
+ 	text-decoration: none;
+ 	overflow: hidden;
+ 	position: relative;
+ 	height: 269px;
+ 	margin-bottom: 20px;
+ }
+ .first:hover{
+ 	opacity: 0.9;
+ }
+ .titlenews{
+ 	position: relative;
+
+ }
+ .date{
+ 	position: absolute;
+ 	right: 0px;
+ }
+.script{
+	clear: both;
+	transition: 1s;
+	position: absolute;
+	bottom: -50px;
+	opacity: 0;
+	color: chocolate;
+}
+.first:hover .script{
+	bottom: 0;
+	opacity: 1;
+}
+.second{
+	margin-right: 22px;
+}
+/*######### CONTENT #######*/
+.topfooter{
+	height: 25px;
+	background:#e9e9e9;
+	margin-top: 10px;
+}
+
+
+.box1{
+	margin: 20px 2% 0 0;
+	height: 100px;
+	width: 48%;
+	border: 3px solid #eee;
+}
+
+.box2{
+	margin: 20px 0 0 2%;
+	height: 100px;
+	width: 48%;
+	border: 3px solid #eee;
+}
+
+.contact{
+	clear: both;
+	margin-top: 20px;
+	color: #e9e9e9;
+}
+
+.box3{
+	width: 30%;
+	border-right: 3px solid #888;
+	margin-right: 2%;
+}
+.box4{
+	width: 30%;
+	border-right: 3px solid #888;
+	margin-right: 2%;
+}
+.box5{
+	width: 34%;
+	border-right: 3px solid #888;
+	margin-right: 2%;
+}
+
+.clearfix:after{
+	content: ".";
+	clear:both;
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+
+.bottomfooter{
+	margin-top: 20px;
+}
+.copyright{
+	color: #e9e9e9;
+}
+
+
+
+@-webkit-keyframes zoomlen{
+	from{transform: scale(1);}
+	to{transform: scale(1.3);}
+}

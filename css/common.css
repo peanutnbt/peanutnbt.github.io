@@ -1,0 +1,15 @@
+.inner{
+	margin: 0 auto;
+	width: 1000px;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
+.clearboth{
+	clear: both;
+}
+
